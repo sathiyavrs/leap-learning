@@ -1,2 +1,2 @@
 # leap-learning
-While learning the Leap Motion Controller
+Small experimental project while learning the Leap Motion Controller API for Unity
