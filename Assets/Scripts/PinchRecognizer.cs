@@ -4,7 +4,6 @@ using Leap;
 
 public class PinchRecognizer : MonoBehaviour
 {
-
     private HandModel _handModel;
     private HandController _controller;
 
@@ -25,8 +24,8 @@ public class PinchRecognizer : MonoBehaviour
         {
             if (!GetHand()) { return; }
         }
-        var indexPosition = _handModel.fingers[1].GetBoneCenter(3);
-        var thumbPosition = _handModel.fingers[0].GetBoneCenter(3);
+        // var indexPosition = _handModel.fingers[1].GetBoneCenter(3);
+        // var thumbPosition = _handModel.fingers[0].GetBoneCenter(3);
 
         if (_handModel.GetLeapHand() != null)
             Debug.Log(_handModel.GetLeapHand().Fingers.FingerType(Finger.FingerType.TYPE_THUMB)[0].TipPosition);
