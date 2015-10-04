@@ -1,4 +1,2 @@
 # Vim Temporary Files
-.gitignore~
-*.cs~
-*.md~
+*~
